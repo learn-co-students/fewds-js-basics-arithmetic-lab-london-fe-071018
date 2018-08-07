@@ -1,5 +1,6 @@
 const expect = chai.expect;
 spyOnNumberIsInteger.restore();
+spyOnMathRandom.restore();
 
 describe('index.js', function () {
   describe('newID', function () {
